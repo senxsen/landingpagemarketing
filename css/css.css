@@ -1,0 +1,30 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+html{font-size:100%}
+/* 全局样式 ------------------------------------------------------------------*/
+body ,div, h1, h2, h3, h4, p, dl, dd, ol, ul, li, th, td, form, fieldset, input, button, textarea{ margin:0; padding:0; box-sizing:border-box;}
+html{ -webkit-text-size-adjust:none; word-wrap:break-word; margin:0; padding:0;}
+h1, h2, h3, h4{ font-size:100%; font-weight:normal;}
+ol, ul{ list-style:none;}
+table{ border-collapse:collapse; border-spacing:0; empty-cells:show; font-size:inherit;}
+fieldset, img{ border:0;}
+cite, em, s, i, b{ font-style:normal;}
+input, button, textarea, select{ font-size:100%;}
+body, input, button, textarea, select, option{ font-size:normal;}
+a, a:link, input, textarea{ text-decoration:none; outline:0; font-weight:normal; font-family:"Microsoft YaHei";}
+li, img, label, input{ vertical-align:middle;}
+body{ font-size:.24rem; font-family:helvetica,arial; width:100%; max-width:7.68rem; margin:0 auto; overflow-x:hidden; background:#242635;}
+input:focus{ outline:none;}
+textarea,select,input{ -webkit-appearance:none; -moz-appearance:none; -o-appearance:none; appearance:none;}
+
+/*公用样式*/
+.left{ float:left;}
+.right{ float:right;}
+.clear{ clear:both;}
+.clear0{ clear:both; font-size:0px; height:0px; overflow:hidden;}
+.hidden{ display:none;}
+
+/*页面头部-------------------------------------------------------------------*/
+.pic{ width:100%; text-align:center;}
+.pic img{ width:100%; margin:0 auto; display:block;}
